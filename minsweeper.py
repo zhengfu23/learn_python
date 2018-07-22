@@ -23,7 +23,7 @@ def show_grid(grid):
     horizontal = '   ' + (4 * grid_size * '-') + '-'
 
     # Print top column letters
-    top_label = '     '
+    top_label = '   '
 
     for i in ascii_lowercase[:grid_size]:
         top_label = top_label + i + '   '
